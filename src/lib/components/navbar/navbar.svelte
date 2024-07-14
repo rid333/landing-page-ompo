@@ -1,5 +1,7 @@
 <script>
     import { Clock7 } from "lucide-svelte";
+    import logo from "$lib/assets/logo.png"
+
     import { onMount, onDestroy } from "svelte";
     import { afterUpdate } from 'svelte';
     let isOpen = true;
@@ -28,18 +30,39 @@
             isScrolled = window.scrollY > 50;
         }
     });
+
+    const menus = [
+        {
+            name: "Home",
+            link: "/"
+        },
+        {
+            name: "Fasilitas",
+            link: "/fasilitas"
+        },
+        {
+            name: "Galeri",
+            link: "/galeri"
+        },
+        {
+            name: "Makanan & Minuman",
+            link: "/makanan-dan-minuman"
+        },
+        {
+            name: "Tentang Kami",
+            link: "/tentang"
+        }
+    ];
 </script>
 
-<nav class={`p-4 text-white flex justify-between w-full fixed top-0 left-0 z-50 uppercase text-base font-semibold transition-colors duration-300 ${isScrolled ? "bg-gray-800/75" : ""}`}>
-    <div>
-        Logo
-    </div>
+<nav class={`p-4 text-white flex justify-between items-center w-full fixed top-0 left-0 z-50 uppercase text-base font-semibold transition-colors duration-300 ${isScrolled ? "bg-gray-800/75" : ""}`}>
+    <a href="/">
+        <img class="w-12" src={logo} alt="Logo">
+    </a>
     <div class="flex gap-x-5">
-        <a href="/">Home</a>
-        <a href="/">Fasilitas</a>
-        <a href="/">Galeri</a>
-        <a href="/">Makanan & Minuman</a>
-        <a href="/">Tentang Kami</a>
+        {#each menus as {name, link} (name)}
+            <a href={link}>{name}</a>
+        {/each}
         {#if isOpen}
             <div class="flex gap-x-1.5 text-xs items-center bg-emerald-600 px-1.5 py-1">
                 <p>Buka</p>
