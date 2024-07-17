@@ -1,5 +1,7 @@
 <script>
-  import wave_1 from "$lib/assets/layered-waves-haikei.svg"
+  import wave_1 from "$lib/assets/layered-waves-haikei.svg";
+  import { ChevronDown } from "lucide-svelte";
+  import Carousel from 'svelte-carousel';
   import { MoveRight } from "lucide-svelte";
   import { reveal } from 'svelte-reveal';
 </script>
@@ -16,9 +18,12 @@
       <p class="text-lg font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facere nemo fugit eligendi praesentium molestiae magni rem libero ad, atque debitis, illo quaerat sint neque officia explicabo exercitationem voluptate esse!</p>
     </div>
   </div>
+  <a href="#home" class="absolute bottom-0 left-1/2 right-1/2 animate-bounce">
+    <ChevronDown size="64" />
+  </a>
 </div>
 
-<div use:reveal class="relative">
+<div id="home" use:reveal class="relative">
   <img class="w-full h-screen object-cover" src={wave_1} alt="Wave 1">
   <div class="absolute inset-0 h-full w-full p-20 flex flex-col items-center gap-y-10">
     <div class="flex flex-col items-center gap-y-4 text-center">
@@ -28,7 +33,6 @@
     <iframe class="w-[600px] aspect-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=z6gedapw4t3xREkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
-
 
 <div use:reveal class="bg-[#0059DD] flex flex-col justify-center items-center h-screen px-20 gap-y-3 text-white">
   <div class="font-extrabold text-5xl">Fasilitas</div>
@@ -57,16 +61,39 @@
     </div>
 
   </div>
-  <div class="bg-yellow-500 flex gap-x-5 mt-5 font-bold p-3">
+  <a href="/fasilitas" class="bg-yellow-500 flex gap-x-5 mt-5 font-bold p-3">
     Baca Selengkapnya
     <MoveRight size="24" />
-  </div>
+  </a>
 </div>
 
 <div use:reveal class="flex flex-col justify-center items-end text-end px-20 p-52">
   <div class="w-1/2 text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Bosan dengan <span class="px-3 rounded-sm bg-[#0059DD] text-white">Air?</span></div>
     <div class="text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
+  </div>
+</div>
+
+
+<div use:reveal class="flex flex-col justify-center items-start text-start px-20 p-52">
+  <div class="w-1/2 text-5xl flex flex-col  gap-5">
+    <div class="font-extrabold">Lelah? Ingin <span class="px-3 rounded-sm bg-[#0059DD] text-white">Istirahat?</span></div>
+    <div class="text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
+  </div>
+</div>
+
+<div use:reveal class="flex flex-col justify-center items-end text-end px-20 p-52">
+  <div class="w-1/2 text-5xl flex flex-col gap-5">
+    <div class="font-extrabold">Lapar? Pengen <span class="px-3 rounded-sm bg-[#0059DD] text-white">Ngemil?</span></div>
+    <div class="text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
+  </div>
+</div>
+
+<div use:reveal class="flex flex-col justify-center text-center px-20 p-40 bg-[#0059DD] text-white">
+  <div class="text-5xl flex flex-col justify-center items-center gap-5">
+    <div class="font-extrabold">Come and Have Fun with Us</div>
+    <div class="text-xl font-medium">MV9J+FWW, Ompo, Kec. Lalabata, Kabupaten Soppeng, Sulawesi Selatan 90814</div>
+    <iframe class="w-[450px] h-96" title="Permandian Alam Ompo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.4237062468465!2d119.87976447443778!3d-4.331260395642732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d95f6a0b2ca6a7b%3A0x4b8ba8fc531b5b81!2sPermandian%20Alam%20Ompo!5e0!3m2!1sid!2sid!4v1721176773241!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
 

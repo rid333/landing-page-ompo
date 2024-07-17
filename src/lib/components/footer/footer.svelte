@@ -18,7 +18,7 @@
             </a>
             <a href="https://instagram.com" target="_blank">
                 <Instagram strokeWidth=2 class="w-6 h-6" />
-            </a>'
+            </a>
             <a href="https://x.com" target="_blank">
                 <Twitter strokeWidth=2 class="w-6 h-6" />
             </a>

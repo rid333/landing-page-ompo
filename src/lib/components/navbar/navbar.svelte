@@ -1,9 +1,12 @@
 <script>
     import { Clock7 } from "lucide-svelte";
-    import logo from "$lib/assets/logo.png"
+    import logo from "$lib/assets/logo.png";
+    import { Hamburger } from "svelte-hamburgers";
+    import Menu from "./menu.svelte";
 
     import { onMount, onDestroy } from "svelte";
     import { afterUpdate } from 'svelte';
+    let open;
     let isOpen = true;
     let isScrolled = false;
 
@@ -49,7 +52,7 @@
             link: "/makanan-dan-minuman"
         },
         {
-            name: "Tentang Kami",
+            name: "Tentang Ompo",
             link: "/tentang"
         }
     ];
@@ -59,7 +62,7 @@
     <a href="/">
         <img class="w-12" src={logo} alt="Logo">
     </a>
-    <div class="flex gap-x-5">
+    <div class="lg:flex hidden gap-x-5">
         {#each menus as {name, link} (name)}
             <a href={link}>{name}</a>
         {/each}
@@ -81,4 +84,8 @@
             </div>
         {/if}
     </div>
+    <div class="lg:hidden">
+        <Hamburger bind:open />
+        <Menu bind:open />
+    </div> 
 </nav>
