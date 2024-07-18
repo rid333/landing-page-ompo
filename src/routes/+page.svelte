@@ -1,5 +1,6 @@
 <script>
   import wave_1 from "$lib/assets/layered-waves-haikei.svg";
+  import Fasilitas from "$lib/components/home/fasilitas.svelte";
   import { ChevronDown } from "lucide-svelte";
   import Carousel from 'svelte-carousel';
   import { MoveRight } from "lucide-svelte";
@@ -14,8 +15,8 @@
   <img class="w-screen h-screen" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
   <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
     <div class="flex pl-10 w-1/2 items-center justify-center h-full flex-col">
-      <h1 class="text-5xl pb-5">Selamat Datang di Permandian Alam Ompo</h1>
-      <p class="text-lg font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facere nemo fugit eligendi praesentium molestiae magni rem libero ad, atque debitis, illo quaerat sint neque officia explicabo exercitationem voluptate esse!</p>
+      <h1 class="text-3xl lg:text-5xl pb-5">Selamat Datang di Permandian Alam Ompo</h1>
+      <p class="text-sm lg:text-lg font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facere nemo fugit eligendi praesentium molestiae magni rem libero ad, atque debitis, illo quaerat sint neque officia explicabo exercitationem voluptate esse!</p>
     </div>
   </div>
   <a href="#home" class="absolute bottom-0 left-1/2 right-1/2 animate-bounce">
@@ -25,41 +26,22 @@
 
 <div id="home" use:reveal class="relative">
   <img class="w-full h-screen object-cover" src={wave_1} alt="Wave 1">
-  <div class="absolute inset-0 h-full w-full p-20 flex flex-col items-center gap-y-10">
+  <div class="absolute inset-0 h-full w-full p-10 lg:p-20 flex flex-col items-center gap-y-10">
     <div class="flex flex-col items-center gap-y-4 text-center">
-      <p class="text-4xl font-extrabold">Jelajahi Permandian dan Budaya di <span class="text-sky-600">Permandian Alam Ompo</span></p>
-      <p class="text-lg font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, odio.</p>
+      <p class="text-2xl lg:text-4xl font-extrabold">Jelajahi Permandian dan Budaya di <span class="text-sky-600">Permandian Alam Ompo</span></p>
+      <p class="text-base lg:text-lg font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, odio.</p>
     </div>
-    <iframe class="w-[600px] aspect-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=z6gedapw4t3xREkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe class="w-[300px] lg:w-[600px] aspect-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=z6gedapw4t3xREkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
 
-<div use:reveal class="bg-[#0059DD] flex flex-col justify-center items-center h-screen px-20 gap-y-3 text-white">
-  <div class="font-extrabold text-5xl">Fasilitas</div>
-  <div class="font-medium text-xl pb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima quos nesciunt, facere iste facilis!</div>
-  <div class="flex gap-x-20">
-    <div class="flex flex-col w-72 text-black bg-white shadow-2xl">
-      <img class="" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
-      <div class="p-5">
-        <p class="text-2xl font-extrabold">Lorem, ipsum.</p>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nihil.</p>
-      </div>
-    </div>
-    <div class="flex flex-col w-72 text-black bg-white shadow-2xl">
-      <img class="" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
-      <div class="p-5">
-        <p class="text-2xl font-extrabold">Lorem, ipsum.</p>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nihil.</p>
-      </div>
-    </div>
-    <div class="flex flex-col w-72 text-black bg-white shadown-2xl">
-      <img class="" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
-      <div class="p-5">
-        <p class="text-2xl font-extrabold">Lorem, ipsum.</p>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nihil.</p>
-      </div>
-    </div>
-
+<div use:reveal class="bg-[#0059DD] flex flex-col justify-center items-center h-full p-10 lg:p-20 gap-y-3 text-white">
+  <div class="font-extrabold text-4xl lg:text-5xl">Fasilitas</div>
+  <div class="font-medium text-base text-justify lg:text-xl pb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima quos nesciunt, facere iste facilis!</div>
+  <div class="flex lg:flex-row flex-col gap-x-20 lg:gap-y-0 gap-y-10">
+    <Fasilitas title="Kolam Renang Dewasa" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Kolam renang yang luas dan nyaman, sempurna untuk berenang santai atau berolahraga. Ketinggian 1,5 M hingga 2 M" />
+    <Fasilitas title="Kolam Renang Anak-anak" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Kolam renang khusus anak-anak dengan desain yang aman dan menyenangkan." />
+    <Fasilitas title="Sumber Mata Air" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Sumber mata air yang jernih dengan dan memiliki nilai-nilai spiritual lokal." />
   </div>
   <a href="/fasilitas" class="bg-yellow-500 flex gap-x-5 mt-5 font-bold p-3">
     Baca Selengkapnya
@@ -91,7 +73,7 @@
 
 <div use:reveal class="flex flex-col justify-center text-center px-20 p-40 bg-[#0059DD] text-white">
   <div class="text-5xl flex flex-col justify-center items-center gap-5">
-    <div class="font-extrabold">Come and Have Fun with Us</div>
+    <div class="font-extrabold italic">Come and Have Fun with Us</div>
     <div class="text-xl font-medium">MV9J+FWW, Ompo, Kec. Lalabata, Kabupaten Soppeng, Sulawesi Selatan 90814</div>
     <iframe class="w-[450px] h-96" title="Permandian Alam Ompo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.4237062468465!2d119.87976447443778!3d-4.331260395642732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d95f6a0b2ca6a7b%3A0x4b8ba8fc531b5b81!2sPermandian%20Alam%20Ompo!5e0!3m2!1sid!2sid!4v1721176773241!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>

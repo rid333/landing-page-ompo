@@ -23,7 +23,7 @@
 </div>
 
 <div id="fasilitas" class="flex flex-col gap-y-10 p-10 bg-slate-50">
-  <Jenisfasilitas nama="Kolam Renang Dewasa" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman, sempurna untuk berenang santai atau berolahraga." />
+  <Jenisfasilitas nama="Kolam Renang Dewasa" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman, sempurna untuk berenang santai atau berolahraga. Ketinggian 1,5 M hingga 2 M" />
   <Jenisfasilitas nama="Kolam Renang Anak-anak" gambar={ImgKolamDewase} deskripsi="Kolam renang khusus anak-anak dengan desain yang aman dan menyenangkan." />
   <Jenisfasilitas nama="Sumber Mata Air" gambar={ImgKolamDewase} deskripsi="Sumber mata air yang jernih dengan dan memiliki nilai-nilai spiritual lokal." />
   <Jenisfasilitas nama="Gazebo" gambar={ImgKolamDewase} deskripsi="Gazebo yang nyaman untuk bersantai dan menikmati pemandangan sekitar." />
