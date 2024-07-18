@@ -25,9 +25,9 @@
 </script>
 
 {#if open}
-    <div class="flex flex-col min-h-screen">
+<div class="flex flex-col h-screen gap-y-10">
         {#each menus as menu}
-            <a href={menu.link}>{menu.name}</a>
+            <a class="" href={menu.link}>{menu.name}</a>
         {/each}
     </div>
 {/if}

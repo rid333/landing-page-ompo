@@ -59,7 +59,7 @@
 </script>
 
 <nav class={`p-4 text-white flex justify-between items-center w-full fixed top-0 left-0 z-50 uppercase text-base font-semibold transition-colors duration-300 ${isScrolled ? "bg-gray-800/75" : ""}`}>
-    <a href="/">
+    <a href="/" class="lg:block hidden">
         <img class="w-12" src={logo} alt="Logo">
     </a>
     <div class="lg:flex hidden gap-x-5">

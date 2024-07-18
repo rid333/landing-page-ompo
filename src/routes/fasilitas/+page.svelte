@@ -23,11 +23,11 @@
 </div>
 
 <div id="fasilitas" class="flex flex-col gap-y-10 p-10 bg-slate-50">
-  <Jenisfasilitas nama="Kolam Renang Dewasa" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman" />
-  <Jenisfasilitas nama="Kolam Renang Anak-anak" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman" />
-  <Jenisfasilitas nama="Sumber Mata Air" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman" />
-  <Jenisfasilitas nama="Gazebo" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman" />
-  <Jenisfasilitas nama="Masjid" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman" />
-  <Jenisfasilitas nama="Toilet" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman" />
-  <Jenisfasilitas nama="Kantin" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman" />
+  <Jenisfasilitas nama="Kolam Renang Dewasa" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman, sempurna untuk berenang santai atau berolahraga." />
+  <Jenisfasilitas nama="Kolam Renang Anak-anak" gambar={ImgKolamDewase} deskripsi="Kolam renang khusus anak-anak dengan desain yang aman dan menyenangkan." />
+  <Jenisfasilitas nama="Sumber Mata Air" gambar={ImgKolamDewase} deskripsi="Sumber mata air yang jernih dengan dan memiliki nilai-nilai spiritual lokal." />
+  <Jenisfasilitas nama="Gazebo" gambar={ImgKolamDewase} deskripsi="Gazebo yang nyaman untuk bersantai dan menikmati pemandangan sekitar." />
+  <Jenisfasilitas nama="Masjid" gambar={ImgKolamDewase} deskripsi="Masjid yang bersih dan nyaman untuk beribadah." />
+  <Jenisfasilitas nama="Toilet" gambar={ImgKolamDewase} deskripsi="Toilet yang bersih dan terawat untuk kenyamanan Anda." />
+  <Jenisfasilitas nama="Kantin" gambar={ImgKolamDewase} deskripsi="Kantin dengan berbagai pilihan makanan dan minuman untuk memuaskan selera Anda." />
 </div>
