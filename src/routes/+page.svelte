@@ -26,8 +26,8 @@
 
 <div id="home" use:reveal class="relative">
   <img class="w-full h-screen object-cover" src={wave_1} alt="Wave 1">
-  <div class="absolute inset-0 h-full w-full p-10 lg:p-20 flex flex-col items-center gap-y-10">
-    <div class="flex flex-col items-center gap-y-4 text-center">
+  <div class="absolute inset-0 h-full p-10 lg:p-20 flex flex-col items-center justify-center lg:gap-y-10 gap-y-20">
+    <div class="flex flex-col items-center gap-y-10 lg:gap-y-4 text-center">
       <p class="text-2xl lg:text-4xl font-extrabold">Jelajahi Permandian dan Budaya di <span class="text-sky-600">Permandian Alam Ompo</span></p>
       <p class="text-base lg:text-lg font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, odio.</p>
     </div>
