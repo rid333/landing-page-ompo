@@ -14,9 +14,9 @@
 <div class="relative font-bold text-white">
   <img class="w-screen h-screen" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
   <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
-    <div class="flex pl-10 w-1/2 items-center justify-center h-full flex-col">
+    <div class="flex pl-10 w-2/3 lg:w-1/2 items-center justify-center h-full flex-col">
       <h1 class="text-3xl lg:text-5xl pb-5">Selamat Datang di Permandian Alam Ompo</h1>
-      <p class="text-sm lg:text-lg font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facere nemo fugit eligendi praesentium molestiae magni rem libero ad, atque debitis, illo quaerat sint neque officia explicabo exercitationem voluptate esse!</p>
+      <p class="text-sm lg:text-lg font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, odio dolore! Aperiam eius id delectus expedita ullam vel iste voluptates.</p>
     </div>
   </div>
   <a href="#home" class="absolute bottom-0 left-1/2 right-1/2 animate-bounce">
@@ -71,19 +71,19 @@
   </div>
 </div>
 
-<div use:reveal class="flex flex-col justify-center text-center px-20 p-40 bg-[#0059DD] text-white">
-  <div class="text-5xl flex flex-col justify-center items-center gap-5">
+<div use:reveal class="flex flex-col justify-center text-center p-10 lg:p-20 bg-[#0059DD] text-white">
+  <div class="text-2xl lg:text-5xl flex flex-col justify-center items-center gap-5">
     <div class="font-extrabold italic">Come and Have Fun with Us</div>
-    <div class="text-xl font-medium">MV9J+FWW, Ompo, Kec. Lalabata, Kabupaten Soppeng, Sulawesi Selatan 90814</div>
-    <iframe class="w-[450px] h-96" title="Permandian Alam Ompo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.4237062468465!2d119.87976447443778!3d-4.331260395642732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d95f6a0b2ca6a7b%3A0x4b8ba8fc531b5b81!2sPermandian%20Alam%20Ompo!5e0!3m2!1sid!2sid!4v1721176773241!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="text-base lg:text-xl font-medium">MV9J+FWW, Ompo, Kec. Lalabata, Kabupaten Soppeng, Sulawesi Selatan 90814</div>
+    <iframe class="lg:w-[450px] h-96" title="Permandian Alam Ompo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.4237062468465!2d119.87976447443778!3d-4.331260395642732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d95f6a0b2ca6a7b%3A0x4b8ba8fc531b5b81!2sPermandian%20Alam%20Ompo!5e0!3m2!1sid!2sid!4v1721176773241!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
 
-<div use:reveal class="relative text-white text-xl">
+<div use:reveal class="relative text-white text-base lg:text-xl">
   <img class="object-cover w-screen h-[500px]" src="https://happyplayindonesia.com/wp-content/uploads/2024/03/image-15.webp" alt="Waterpark">
-  <div class="absolute inset-0 h-full w-full p-20 flex flex-col justify-center items-center gap-y-10 bg-black bg-opacity-50">
-    <p class="font-extrabold text-4xl">Waktu Operasi</p>
-    <div class="flex gap-x-16">
+  <div class="absolute inset-0 h-full w-full p-10 lg:p-20 flex flex-col justify-center items-center gap-y-10 bg-black bg-opacity-50">
+    <p class="font-extrabold text-3xl lg:text-4xl">Waktu Operasi</p>
+    <div class="flex lg:flex-row flex-col gap-x-16 gap-y-10">
       <div class="p-5 bg-emerald-600">
         <h1 class="font-extrabold">Buka</h1>
         <p>Senin - Jumat: 08.00 - 17.00</p>
