@@ -15,7 +15,7 @@
   <img class="w-screen h-screen" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
   <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
     <div class="flex pl-10 w-2/3 lg:w-1/2 items-center justify-center h-full flex-col">
-      <h1 class="text-3xl lg:text-5xl pb-5">Selamat Datang di Permandian Alam Ompo</h1>
+      <h1 class="text-3xl lg:text-5xl pb-5 uppercase">Selamat Datang di Permandian Alam Ompo</h1>
       <p class="text-sm lg:text-lg font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, odio dolore! Aperiam eius id delectus expedita ullam vel iste voluptates.</p>
     </div>
   </div>
@@ -50,7 +50,7 @@
 </div>
 
 <div use:reveal class="flex flex-col justify-center items-end text-end px-20 p-52">
-  <div class="w-1/2 text-5xl flex flex-col gap-5">
+  <div class="w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Bosan dengan <span class="px-3 rounded-sm bg-[#0059DD] text-white">Air?</span></div>
     <div class="text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
@@ -58,14 +58,14 @@
 
 
 <div use:reveal class="flex flex-col justify-center items-start text-start px-20 p-52">
-  <div class="w-1/2 text-5xl flex flex-col  gap-5">
+  <div class="w-1/2 text-2xl lg:text-5xl flex flex-col  gap-5">
     <div class="font-extrabold">Lelah? Ingin <span class="px-3 rounded-sm bg-[#0059DD] text-white">Istirahat?</span></div>
     <div class="text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
 </div>
 
 <div use:reveal class="flex flex-col justify-center items-end text-end px-20 p-52">
-  <div class="w-1/2 text-5xl flex flex-col gap-5">
+  <div class="w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lapar? Pengen <span class="px-3 rounded-sm bg-[#0059DD] text-white">Ngemil?</span></div>
     <div class="text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
