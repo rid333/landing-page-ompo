@@ -1,5 +1,7 @@
 <script>
     export let open;
+    import { fly } from 'svelte/transition';
+
     const menus = [
         {
             name: "Home",
@@ -18,16 +20,16 @@
             link: "/makanan-dan-minuman"
         },
         {
-            name: "Tentang Kami",
-            link: "/tentang"
+            name: "Sejarah Ompo",
+            link: "/sejarah-ompo"
         }
     ];
 </script>
 
 {#if open}
-<div class="flex flex-col h-screen gap-y-10">
-        {#each menus as menu}
-            <a class="" href={menu.link}>{menu.name}</a>
-        {/each}
-    </div>
+<div class="flex flex-col h-screen gap-y-10 p-5">
+    {#each menus as menu, i}
+        <a class="" href={menu.link} transition:fly={{ y: -15, delay: 50 * i }}>{menu.name}</a>
+    {/each}
+</div>
 {/if}
