@@ -49,7 +49,7 @@
   </a>
 </div>
 
-<div use:reveal class="flex flex-col justify-center items-end text-end px-20 p-52">
+<div class="flex flex-col justify-center items-end text-end px-20 p-52">
   <div class="w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Bosan dengan <span class="px-3 rounded-sm bg-[#0059DD] text-white">Air?</span></div>
     <div class="text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
@@ -57,21 +57,21 @@
 </div>
 
 
-<div use:reveal class="flex flex-col justify-center items-start text-start px-20 p-52">
+<div class="flex flex-col justify-center items-start text-start px-20 p-52">
   <div class="w-1/2 text-2xl lg:text-5xl flex flex-col  gap-5">
     <div class="font-extrabold">Lelah? Ingin <span class="px-3 rounded-sm bg-[#0059DD] text-white">Istirahat?</span></div>
     <div class="text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
 </div>
 
-<div use:reveal class="flex flex-col justify-center items-end text-end px-20 p-52">
+<div class="flex flex-col justify-center items-end text-end px-20 p-52">
   <div class="w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lapar? Pengen <span class="px-3 rounded-sm bg-[#0059DD] text-white">Ngemil?</span></div>
     <div class="text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
 </div>
 
-<div use:reveal class="flex flex-col justify-center text-center p-10 lg:p-20 bg-[#0059DD] text-white">
+<div class="flex flex-col justify-center text-center p-10 lg:p-20 bg-[#0059DD] text-white">
   <div class="text-2xl lg:text-5xl flex flex-col justify-center items-center gap-5">
     <div class="font-extrabold italic">Come and Have Fun with Us</div>
     <div class="text-base lg:text-xl font-medium">MV9J+FWW, Ompo, Kec. Lalabata, Kabupaten Soppeng, Sulawesi Selatan 90814</div>
