@@ -4,7 +4,7 @@
 
 <PageHeader title="SEJARAH OMPO" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facere nemo fugit eligendi praesentium molestiae magni rem libero ad, atque debitis, illo quaerat sint neque officia explicabo exercitationem voluptate esse!" img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" />
 
-<div id="#sejarah" class="lg:p-20 p-5 font-medium text-xl flex flex-col gap-y-5">
+<div id="main" class="lg:p-20 p-5 font-medium text-base text-justify lg:text-xl flex flex-col gap-y-5">
     <div>
         Permandian Alam Ompo merupakan salah satu objek wisata yang terletak kurang lebih 3 km di sebelah Utara Kota Watan Soppeng, Kelurahan Ompo, Kecamatan Lalabata, Kabupaten Soppeng, Provinsi Sulawesi Selatan. Tempat wisata ini memiliki daya tarik kesegaran air yang langsung bersumber dari mata air alami di Kelurahan Ompo. Selain menjadi objek wisata, mata air Ompo jaga dimanfaatkan oleh masyarakat sekitar untuk kebutuhan sehari-hari seperti sumber perairan sawah hingga dimanfaatkan oleh seluruh masyarakat Kabupaten Soppeng.
     </div>

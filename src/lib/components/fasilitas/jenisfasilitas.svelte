@@ -3,7 +3,7 @@
     export let nama, gambar, deskripsi;
 </script>
 
-<div class="px-20 flex justify-between items-center gap-x-5">
+<div class="px-20 flex flex-col lg:flex-row justify-between items-center gap-x-5">
     <div class="flex flex-col gap-y-5">
         <div class="text-3xl font-bold"><span class="bg-sky-600 text-white p-2">{nama}</span></div>
         <div class="text-xl font-medium italic">{deskripsi}</div>
