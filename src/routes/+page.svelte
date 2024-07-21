@@ -4,7 +4,6 @@
   import { ChevronDown } from "lucide-svelte";
   import Carousel from 'svelte-carousel';
   import { MoveRight } from "lucide-svelte";
-  import { reveal } from 'svelte-reveal';
 </script>
 
 <svelte:head>
@@ -24,7 +23,7 @@
   </a>
 </div>
 
-<div id="home" use:reveal class="relative">
+<div id="home" class="relative">
   <img class="w-full h-screen object-cover" src={wave_1} alt="Wave 1">
   <div class="absolute inset-0 h-full p-10 lg:p-20 flex flex-col items-center justify-center lg:gap-y-10 gap-y-20">
     <div class="flex flex-col items-center gap-y-10 lg:gap-y-4 text-center">
@@ -35,7 +34,7 @@
   </div>
 </div>
 
-<div use:reveal class="bg-[#0059DD] flex flex-col justify-center items-center h-full p-10 lg:p-20 gap-y-3 text-white">
+<div class="bg-[#0059DD] flex flex-col justify-center items-center h-full p-10 lg:p-20 gap-y-3 text-white">
   <div class="font-extrabold text-4xl lg:text-5xl">Fasilitas</div>
   <div class="font-medium text-base text-justify lg:text-xl pb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima quos nesciunt, facere iste facilis!</div>
   <div class="flex lg:flex-row flex-col gap-x-20 lg:gap-y-0 gap-y-10">
@@ -79,7 +78,7 @@
   </div>
 </div>
 
-<div use:reveal class="relative text-white text-base lg:text-xl">
+<div class="relative text-white text-base lg:text-xl">
   <img class="object-cover w-screen h-[500px]" src="https://happyplayindonesia.com/wp-content/uploads/2024/03/image-15.webp" alt="Waterpark">
   <div class="absolute inset-0 h-full w-full p-10 lg:p-20 flex flex-col justify-center items-center gap-y-10 bg-black bg-opacity-50">
     <p class="font-extrabold text-3xl lg:text-4xl">Waktu Operasi</p>
