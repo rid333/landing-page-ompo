@@ -3,12 +3,12 @@
     export let nama, gambar, deskripsi;
 </script>
 
-<div class="px-20 flex flex-col lg:flex-row justify-between items-center gap-x-5">
-    <div class="flex flex-col gap-y-5">
-        <div class="text-3xl font-bold"><span class="bg-sky-600 text-white p-2">{nama}</span></div>
-        <div class="text-xl font-medium italic">{deskripsi}</div>
+<div class="p-10 lg:p-20 flex flex-col lg:flex-row justify-between items-center gap-y-3 lg:gap-y-0 gap-x-5">
+    <div class="flex flex-col gap-y-3 lg:gap-y-5">
+        <div class="text-xl lg:text-3xl font-bold"><span class="bg-sky-600 text-white p-2">{nama}</span></div>
+        <div class="text-base lg:text-xl font-medium italic">{deskripsi}</div>
     </div>
-    <div class="w-[700px]">
+    <div class="w-[400px] lg:w-[700px]">
         <Carousel>
             {#each gambar as gambar}
                 <img src={gambar} alt={nama} class="object-cover" />
