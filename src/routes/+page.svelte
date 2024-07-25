@@ -48,7 +48,14 @@
   </a>
 </div>
 
-<div class="flex flex-col justify-center items-end lg:text-end p-5 py-10 lg:p-20">
+<div class="flex flex-col-reverse lg:flex-row justify-center items-center lg:text-end p-5 py-10 lg:p-20">
+  <div class="mt-5 lg:pt-0 w-[400px] lg:w-[600px]">
+    <Carousel>
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+    </Carousel>
+  </div>
   <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Bosan dengan <span class="px-3 rounded-sm bg-[#0059DD] text-white">Air?</span></div>
     <div class="italic text-base lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
@@ -56,14 +63,28 @@
 </div>
 
 
-<div class="flex flex-col justify-center items-start lg:text-start p-5 py-10 lg:p-20">
+<div class="flex flex-col lg:flex-row justify-center items-center lg:text-start p-5 py-10 lg:p-20">
   <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lelah? Ingin <span class="px-3 rounded-sm bg-[#0059DD] text-white">Istirahat?</span></div>
     <div class="italic text-base lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
+  <div class="mt-5 lg:pt-0 w-[400px] lg:w-[600px]">
+    <Carousel>
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+    </Carousel>
+  </div>
 </div>
 
-<div class="flex flex-col justify-center items-end lg:text-end p-5 py-10 lg:p-20">
+<div class="flex flex-col-reverse lg:flex-row justify-center items-center lg:text-end p-5 py-10 lg:p-20">
+  <div class="mt-5 lg:pt-0 w-[400px] lg:w-[600px]">
+    <Carousel>
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+    </Carousel>
+  </div>
   <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lapar? Pengen <span class="px-3 rounded-sm bg-[#0059DD] text-white">Ngemil?</span></div>
     <div class="italic text-base lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
