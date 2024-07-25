@@ -34,7 +34,7 @@
   </div>
 </div>
 
-<div class="bg-[#0059DD] flex flex-col justify-center items-center h-full p-5 lg:p-20 gap-y-5 text-white">
+<div class="bg-[#0059DD] flex flex-col justify-center items-center h-full p-5 py-10 lg:p-20 gap-y-5 text-white">
   <div class="font-extrabold text-4xl lg:text-5xl">Fasilitas</div>
   <div class="font-medium text-base text-center italic lg:text-xl pb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima quos nesciunt, facere iste facilis!</div>
   <div class="flex lg:flex-row flex-col gap-x-20 gap-y-10">
@@ -48,29 +48,29 @@
   </a>
 </div>
 
-<div class="flex flex-col justify-center items-end text-end p-5 lg:p-20">
-  <div class="w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
+<div class="flex flex-col justify-center items-end lg:text-end p-5 py-10 lg:p-20">
+  <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Bosan dengan <span class="px-3 rounded-sm bg-[#0059DD] text-white">Air?</span></div>
-    <div class="text-sm lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
+    <div class="italic text-base lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
 </div>
 
 
-<div class="flex flex-col justify-center items-start text-start p-5 lg:p-20">
-  <div class="w-1/2 text-xl lg:text-5xl flex flex-col gap-5">
+<div class="flex flex-col justify-center items-start lg:text-start p-5 py-10 lg:p-20">
+  <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lelah? Ingin <span class="px-3 rounded-sm bg-[#0059DD] text-white">Istirahat?</span></div>
-    <div class="text-sm lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
+    <div class="italic text-base lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
 </div>
 
-<div class="flex flex-col justify-center items-end text-end p-5 lg:p-20">
-  <div class="w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
+<div class="flex flex-col justify-center items-end lg:text-end p-5 py-10 lg:p-20">
+  <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lapar? Pengen <span class="px-3 rounded-sm bg-[#0059DD] text-white">Ngemil?</span></div>
-    <div class="text-sm lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
+    <div class="italic text-base lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
 </div>
 
-<div class="flex flex-col justify-center text-center p-5 lg:p-20 bg-[#0059DD] text-white">
+<div class="flex flex-col justify-center text-center p-5 py-10 lg:p-20 bg-[#0059DD] text-white">
   <div class="text-2xl lg:text-5xl flex flex-col justify-center items-center gap-5">
     <div class="font-extrabold italic">Come and Have Fun with Us</div>
     <div class="text-base lg:text-xl font-medium">MV9J+FWW, Ompo, Kec. Lalabata, Kabupaten Soppeng, Sulawesi Selatan 90814</div>
