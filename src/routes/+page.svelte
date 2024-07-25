@@ -25,7 +25,7 @@
 
 <div id="home" class="relative">
   <img class="w-full h-screen object-cover" src={wave_1} alt="Wave 1">
-  <div class="absolute inset-0 h-full p-10 lg:p-20 flex flex-col items-center justify-center lg:gap-y-10 gap-y-20">
+  <div class="absolute inset-0 h-full p-5 lg:p-20 flex flex-col items-center justify-center lg:gap-y-10 gap-y-20">
     <div class="flex flex-col items-center gap-y-10 lg:gap-y-4 text-center">
       <p class="text-2xl lg:text-4xl font-extrabold">Jelajahi Permandian dan Budaya di <span class="text-sky-600">Permandian Alam Ompo</span></p>
       <p class="text-base lg:text-lg font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, odio.</p>
@@ -34,10 +34,10 @@
   </div>
 </div>
 
-<div class="bg-[#0059DD] flex flex-col justify-center items-center h-full p-10 lg:p-20 gap-y-3 text-white">
+<div class="bg-[#0059DD] flex flex-col justify-center items-center h-full p-5 lg:p-20 gap-y-5 text-white">
   <div class="font-extrabold text-4xl lg:text-5xl">Fasilitas</div>
-  <div class="font-medium text-base text-justify lg:text-xl pb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima quos nesciunt, facere iste facilis!</div>
-  <div class="flex lg:flex-row flex-col gap-x-20 lg:gap-y-0 gap-y-10">
+  <div class="font-medium text-base text-center italic lg:text-xl pb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima quos nesciunt, facere iste facilis!</div>
+  <div class="flex lg:flex-row flex-col gap-x-20 gap-y-10">
     <Fasilitas title="Kolam Renang Dewasa" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Kolam renang yang luas dan nyaman, sempurna untuk berenang santai atau berolahraga. Ketinggian 1,5 M hingga 2 M" />
     <Fasilitas title="Kolam Renang Anak-anak" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Kolam renang khusus anak-anak dengan desain yang aman dan menyenangkan." />
     <Fasilitas title="Sumber Mata Air" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Sumber mata air yang jernih dengan dan memiliki nilai-nilai spiritual lokal." />
@@ -48,7 +48,7 @@
   </a>
 </div>
 
-<div class="flex flex-col justify-center items-end text-end p-10 lg:p-20">
+<div class="flex flex-col justify-center items-end text-end p-5 lg:p-20">
   <div class="w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Bosan dengan <span class="px-3 rounded-sm bg-[#0059DD] text-white">Air?</span></div>
     <div class="text-sm lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
@@ -56,21 +56,21 @@
 </div>
 
 
-<div class="flex flex-col justify-center items-start text-start p-10 lg:p-20">
+<div class="flex flex-col justify-center items-start text-start p-5 lg:p-20">
   <div class="w-1/2 text-xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lelah? Ingin <span class="px-3 rounded-sm bg-[#0059DD] text-white">Istirahat?</span></div>
     <div class="text-sm lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
 </div>
 
-<div class="flex flex-col justify-center items-end text-end p-10 lg:p-20">
+<div class="flex flex-col justify-center items-end text-end p-5 lg:p-20">
   <div class="w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lapar? Pengen <span class="px-3 rounded-sm bg-[#0059DD] text-white">Ngemil?</span></div>
     <div class="text-sm lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
   </div>
 </div>
 
-<div class="flex flex-col justify-center text-center p-10 lg:p-20 bg-[#0059DD] text-white">
+<div class="flex flex-col justify-center text-center p-5 lg:p-20 bg-[#0059DD] text-white">
   <div class="text-2xl lg:text-5xl flex flex-col justify-center items-center gap-5">
     <div class="font-extrabold italic">Come and Have Fun with Us</div>
     <div class="text-base lg:text-xl font-medium">MV9J+FWW, Ompo, Kec. Lalabata, Kabupaten Soppeng, Sulawesi Selatan 90814</div>

@@ -4,19 +4,19 @@
 
 <PageHeader title="MAKANAN DAN MINUMAN" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facere nemo fugit eligendi praesentium molestiae magni rem libero ad, atque debitis, illo quaerat sint neque officia explicabo exercitationem voluptate esse!" img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" />
 
- <div class="p-10 lg:p-20 flex flex-col gap-y-10" id="main">
-  <div class="text-xl lg:text-3xl font-bold mx-auto">Permandian Alam Ompo memiliki kantin di dalam dan luar permandian</div>
-  <div class="flex flex-col gap-y-5">
-    <div class="bg-[#0059DD] w-fit text-white text-xl font-bold p-2">Kantin di dalam permandian</div>
-    <div class="grid grid-cols-3 gap-x-10">
+ <div class="p-5 pt-20 lg:p-20 flex flex-col gap-y-16" id="main">
+  <div class="text-lg lg:text-3xl font-bold mx-auto text-center">Permandian Alam Ompo memiliki kantin di dalam dan luar permandian</div>
+  <div class="flex flex-col gap-y-8">
+    <div class="bg-[#0059DD] w-fit text-white text-lg lg:text-xl font-bold p-2">Kantin di dalam permandian</div>
+    <div class="grid lg:grid-cols-3 gap-x-10 gap-y-10">
       <img class="w-full h-96 object-cover" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
       <img class="w-full h-96 object-cover" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
       <img class="w-full h-96 object-cover" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
     </div>
   </div>
-  <div class="flex flex-col gap-y-5">
-    <div class="bg-[#0059DD] w-fit text-white text-xl font-bold p-2">Kantin di luar permandian</div>
-    <div class="grid grid-cols-3 gap-x-10">
+  <div class="flex flex-col gap-y-8">
+    <div class="bg-[#0059DD] w-fit text-white text-lg lg:text-xl font-bold p-2">Kantin di luar permandian</div>
+    <div class="grid lg:grid-cols-3 gap-x-10 gap-y-10">
       <img class="w-full h-96 object-cover" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
       <img class="w-full h-96 object-cover" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
       <img class="w-full h-96 object-cover" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
