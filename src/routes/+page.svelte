@@ -15,7 +15,7 @@
   <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
     <div class="flex pl-10 w-2/3 lg:w-1/2 items-center justify-center h-full flex-col">
       <h1 class="text-3xl lg:text-5xl pb-5 uppercase">Selamat Datang di Permandian Alam Ompo</h1>
-      <p class="text-sm lg:text-lg font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, odio dolore! Aperiam eius id delectus expedita ullam vel iste voluptates.</p>
+      <p class="text-sm lg:text-lg font-medium italic">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, odio dolore! Aperiam eius id delectus expedita ullam vel iste voluptates.</p>
     </div>
   </div>
   <a href="#home" class="absolute bottom-0 left-1/2 right-1/2 animate-bounce">

@@ -10,7 +10,7 @@
     <div class="lg:w-1/3 flex flex-col gap-y-5 lg:gap-y-20">
         <div class="flex flex-col gap-y-2">
             <h1 class="text-xl lg:text-2xl font-extrabold">Permandian Alam Ompo</h1>
-            <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="text-sm">MV9J+FWW, Ompo, Kec. Lalabata, Kabupaten Soppeng, Sulawesi Selatan 90814</p>
         </div>
         <div class="flex gap-x-5">
             <a href="https://fb.com" target="_blank">
@@ -30,21 +30,21 @@
     <div class="flex lg:flex-row flex-col lg:gap-y-0 gap-y-5 gap-x-20 text-base lg:text-lg justify-around">
         <div>
             <div class="font-extrabold">Menu</div>
-            <div>
-                <div>Home</div>
-                <div>Fasilitas</div>
-                <div>Galeri</div>
-                <div>Makanan & Minuman</div>
-                <div>Tentang Kami</div>
+            <div class="flex flex-col">
+                <a href="/home">Home</a>
+                <a href="/fasilitas">Fasilitas</a>
+                <a href="/galeri">Galeri</a>
+                <a href="makanan-dan-minuman">Makanan & Minuman</a>
+                <a href="sejarah-ompo">Sejarah Ompo</a>
             </div>
         </div>
         <div>
             <div class="font-extrabold">Lokasi</div>
             <div>
-                <div>Jl. Lorem, ipsum.</div>
-                <div>Kel. Lorem.</div>
-                <div>Kec. Lorem.</div>
-                <div>Kab. Lorem.</div>
+                <div>MV9J+FWW</div>
+                <div>Kel. Ompo</div>
+                <div>Kec. Lalabata</div>
+                <div>Kab. Soppeng</div>
             </div>
         </div>
         <div>
