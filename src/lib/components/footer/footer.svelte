@@ -3,10 +3,9 @@
     import { Instagram } from "lucide-svelte";
     import { Twitter } from "lucide-svelte";
     import { Youtube } from "lucide-svelte";
-    import { reveal } from 'svelte-reveal';
 </script>
 
-<footer use:reveal class="text-xl flex lg:flex-row flex-col relative bg-slate-100 h-full lg:gap-y-0 gap-y-10 gap-x-20 p-10 lg:p-20">
+<footer class="text-xl flex lg:flex-row flex-col relative bg-slate-100 h-full lg:gap-y-0 gap-y-10 gap-x-20 p-10 lg:p-20">
     <div class="lg:w-1/3 flex flex-col gap-y-5 lg:gap-y-20">
         <div class="flex flex-col gap-y-2">
             <h1 class="text-xl lg:text-2xl font-extrabold">Permandian Alam Ompo</h1>

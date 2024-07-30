@@ -1,6 +1,10 @@
 <script>
   import wave_1 from "$lib/assets/layered-waves-haikei.svg";
   import Fasilitas from "$lib/components/home/fasilitas.svelte";
+  import Header from "$lib/assets/dewasa-depan-min.png";
+  import AnakImg from "$lib/assets/anak.png";
+  import MataAirImg from "$lib/assets/mataair.png";
+  import DewasaImg from "$lib/assets/dewasa3.png";
   import { ChevronDown } from "lucide-svelte";
   import Carousel from 'svelte-carousel';
   import { MoveRight } from "lucide-svelte";
@@ -11,7 +15,7 @@
 </svelte:head>
 
 <div class="relative font-bold text-white">
-  <img class="w-screen h-screen" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Waterpark">
+  <img class="w-screen h-screen object-cover" src={Header} alt="Waterpark">
   <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
     <div class="flex pl-10 w-2/3 lg:w-1/2 items-center justify-center h-full flex-col">
       <h1 class="text-3xl lg:text-5xl pb-5 uppercase">Selamat Datang di Permandian Alam Ompo</h1>
@@ -38,9 +42,9 @@
   <div class="font-extrabold text-4xl lg:text-5xl">Fasilitas</div>
   <div class="font-medium text-base text-center italic lg:text-xl pb-10">Kami menawarkan tiga fasilitas permandian utama, yaitu Kolam Renang Dewasa, Kolam Renang Anak-anak, dan Sumber Mata Air</div>
   <div class="flex lg:flex-row flex-col gap-x-20 gap-y-10">
-    <Fasilitas title="Kolam Renang Dewasa" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Kolam renang yang luas dan nyaman, sempurna untuk berenang santai atau berolahraga. Ketinggian 1,5 M hingga 2 M" />
-    <Fasilitas title="Kolam Renang Anak-anak" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Kolam renang khusus anak-anak dengan desain yang aman dan menyenangkan." />
-    <Fasilitas title="Sumber Mata Air" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Sumber mata air yang jernih dengan dan memiliki nilai-nilai spiritual lokal." />
+    <Fasilitas title="Kolam Renang Dewasa" image={DewasaImg} description="Kolam renang yang luas dan nyaman, sempurna untuk berenang santai atau berolahraga. Ketinggian 1,5 M hingga 2 M" />
+    <Fasilitas title="Kolam Renang Anak-anak" image={AnakImg} description="Kolam renang khusus anak-anak dengan desain yang aman dan menyenangkan." />
+    <Fasilitas title="Sumber Mata Air" image={MataAirImg} description="Sumber mata air yang jernih dengan dan memiliki nilai-nilai spiritual lokal." />
   </div>
   <a href="/fasilitas" class="bg-yellow-500 flex gap-x-5 mt-5 font-bold p-3">
     Baca Selengkapnya

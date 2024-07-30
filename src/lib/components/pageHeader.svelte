@@ -4,7 +4,7 @@
 </script>
 
 <div class="relative font-bold text-white">
-  <img class="w-screen h-screen" src={img} alt="Waterpark">
+  <img class="w-screen h-screen object-cover" src={img} alt="Waterpark">
   <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
     <div class="flex px-11 lg:px-72 items-center justify-center text-justify h-full flex-col">
       <h1 class="text-3xl lg:text-5xl pb-2.5 lg:pb-5 text-center">{title}</h1>
