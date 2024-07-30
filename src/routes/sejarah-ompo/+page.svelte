@@ -2,7 +2,7 @@
 	import PageHeader from "$lib/components/pageHeader.svelte";
 </script>
 
-<PageHeader title="SEJARAH OMPO" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facere nemo fugit eligendi praesentium molestiae magni rem libero ad, atque debitis, illo quaerat sint neque officia explicabo exercitationem voluptate esse!" img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" />
+<PageHeader title="SEJARAH OMPO" description="Permandian Alam Ompo kaya akan sejarah dan makna mendalam. Pelajari kisah terbentuknya sumber mata air Ompo dengan membaca teks di bawah" img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" />
 
 <div id="main" class="lg:p-20 p-5 py-10 font-medium text-base text-justify lg:text-xl flex flex-col gap-y-5">
     <div>

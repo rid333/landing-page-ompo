@@ -8,7 +8,7 @@
     ];
 </script>
 
-<PageHeader title="FASILITAS" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facere nemo fugit eligendi praesentium molestiae magni rem libero ad, atque debitis, illo quaerat sint neque officia explicabo exercitationem voluptate esse." img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" />
+<PageHeader title="FASILITAS" description="Nikmati berbagai fasilitas kami: kolam renang untuk semua usia, gazebo yang nyaman, kantin dengan hidangan lezat dan terjangkau, serta masjid untuk beribadah. Semuanya ada di sini untuk membuat kunjungan Anda sempurna!" img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" />
 
 <div id="main" class="flex flex-col lg:gap-y-10 lg:p-10 bg-slate-50">
   <Jenisfasilitas nama="Kolam Renang Dewasa" gambar={ImgKolamDewase} deskripsi="Kolam renang yang luas dan nyaman, sempurna untuk berenang santai atau berolahraga. Ketinggian 1,5 M hingga 2 M" />
