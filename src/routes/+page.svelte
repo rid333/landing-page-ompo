@@ -15,7 +15,7 @@
   <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50">
     <div class="flex pl-10 w-2/3 lg:w-1/2 items-center justify-center h-full flex-col">
       <h1 class="text-3xl lg:text-5xl pb-5 uppercase">Selamat Datang di Permandian Alam Ompo</h1>
-      <p class="text-sm lg:text-lg font-medium italic">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, odio dolore! Aperiam eius id delectus expedita ullam vel iste voluptates.</p>
+      <p class="text-sm lg:text-lg font-medium italic">Nikmati pengalaman tak terlupakan dengan permandian alam yang segar, budaya lokal yang kaya, dan edukasi menarik di Permandian Alam Ompo.</p>
     </div>
   </div>
   <a href="#home" class="absolute bottom-0 left-1/2 right-1/2 animate-bounce">
@@ -28,7 +28,7 @@
   <div class="absolute inset-0 h-full p-5 lg:p-20 flex flex-col items-center justify-center lg:gap-y-10 gap-y-20">
     <div class="flex flex-col items-center gap-y-10 lg:gap-y-4 text-center">
       <p class="text-2xl lg:text-4xl font-extrabold">Jelajahi Permandian dan Budaya di <span class="text-sky-600">Permandian Alam Ompo</span></p>
-      <p class="text-base lg:text-lg font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, odio.</p>
+      <p class="text-base lg:text-lg font-medium">Bukan hanya permandian yang menyegarkan, di sini Anda juga bisa menemukan sejarah yang kaya dan edukasi yang menarik</p>
     </div>
     <iframe class="w-[300px] lg:w-[600px] aspect-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=z6gedapw4t3xREkr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
@@ -36,7 +36,7 @@
 
 <div class="bg-[#0059DD] flex flex-col justify-center items-center h-full p-5 py-10 lg:p-20 gap-y-5 text-white">
   <div class="font-extrabold text-4xl lg:text-5xl">Fasilitas</div>
-  <div class="font-medium text-base text-center italic lg:text-xl pb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum minima quos nesciunt, facere iste facilis!</div>
+  <div class="font-medium text-base text-center italic lg:text-xl pb-10">Kami menawarkan tiga fasilitas permandian utama, yaitu Kolam Renang Dewasa, Kolam Renang Anak-anak, dan Sumber Mata Air</div>
   <div class="flex lg:flex-row flex-col gap-x-20 gap-y-10">
     <Fasilitas title="Kolam Renang Dewasa" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Kolam renang yang luas dan nyaman, sempurna untuk berenang santai atau berolahraga. Ketinggian 1,5 M hingga 2 M" />
     <Fasilitas title="Kolam Renang Anak-anak" image="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" description="Kolam renang khusus anak-anak dengan desain yang aman dan menyenangkan." />
@@ -48,7 +48,7 @@
   </a>
 </div>
 
-<div class="flex flex-col-reverse lg:flex-row justify-center items-center lg:text-end p-5 py-10 lg:p-20">
+<div class="flex flex-col-reverse lg:flex-row justify-center items-center lg:text-end p-5 py-10 lg:p-20 gap-x-10">
   <div class="mt-5 lg:pt-0 w-[400px] lg:w-[600px]">
     <Carousel>
       <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
@@ -58,15 +58,15 @@
   </div>
   <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Bosan dengan <span class="px-3 rounded-sm bg-[#0059DD] text-white">Air?</span></div>
-    <div class="italic text-base lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
+    <div class="italic text-base lg:text-xl font-medium">Pindai QR Code di poster dekat mata air untuk mempelajari sejarah unik Permandian Alam Ompo. Jangan lewatkan juga kesempatan belajar tentang berbagai jenis pohon di sini melalui display yang tersedia di depan pohon.</div>
   </div>
 </div>
 
 
-<div class="flex flex-col lg:flex-row justify-center items-center lg:text-start p-5 py-10 lg:p-20">
+<div class="flex flex-col lg:flex-row justify-center items-center lg:text-start p-5 py-10 lg:p-20 gap-x-10">
   <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lelah? Ingin <span class="px-3 rounded-sm bg-[#0059DD] text-white">Istirahat?</span></div>
-    <div class="italic text-base lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
+    <div class="italic text-base lg:text-xl font-medium">Permandian Alam Ompo menawarkan berbagai jenis gazebo yang nyaman untuk beristirahat. Temukan gazebo favoritmu dan nikmati suasana di Permandian Alam Ompo.</div>
   </div>
   <div class="mt-5 lg:pt-0 w-[400px] lg:w-[600px]">
     <Carousel>
@@ -77,7 +77,7 @@
   </div>
 </div>
 
-<div class="flex flex-col-reverse lg:flex-row justify-center items-center lg:text-end p-5 py-10 lg:p-20">
+<div class="flex flex-col-reverse lg:flex-row justify-center items-center lg:text-end p-5 py-10 lg:p-20 gap-x-10">
   <div class="mt-5 lg:pt-0 w-[400px] lg:w-[600px]">
     <Carousel>
       <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
@@ -87,7 +87,7 @@
   </div>
   <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
     <div class="font-extrabold">Lapar? Pengen <span class="px-3 rounded-sm bg-[#0059DD] text-white">Ngemil?</span></div>
-    <div class="italic text-base lg:text-xl font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quaerat molestiae ullam repellat fuga veritatis blanditiis natus asperiores. Facere, obcaecatdi</div>
+    <div class="italic text-base lg:text-xl font-medium">Jangan lewatkan kantin-kantin yang menyajikan berbagai pilihan makanan lezat dengan harga terjangkau. Nikmati hidangan favoritmu setelah berendam!</div>
   </div>
 </div>
 
