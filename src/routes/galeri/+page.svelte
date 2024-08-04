@@ -1,6 +1,6 @@
 <script>
     import PageHeader from "$lib/components/pageHeader.svelte";
-    import Header from "$lib/assets/IMG_7009-min.png";
+    import Header from "$lib/assets/permainan1.jpeg";
 </script>
 
 <PageHeader title="GALERI" description="Intip suasana seru dan keindahan Permandian Alam Ompo melalui galeri foto kami. Scroll ke bawah dan rasakan pesonanya sebelum Anda berkunjung!" img={Header} />
