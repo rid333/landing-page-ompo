@@ -1,7 +1,7 @@
 <script>
     import Jenisfasilitas from "$lib/components/fasilitas/jenisfasilitas.svelte";
     import PageHeader from "$lib/components/pageHeader.svelte";
-    import Header from "$lib/assets/fasilitasheader.png";
+    import Header from "$lib/assets/fasilitasheader.jpeg";
     const ImgKolamDewase = [
         "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1",
         "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1",

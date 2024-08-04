@@ -1,7 +1,7 @@
 <script>
     import PageHeader from "$lib/components/pageHeader.svelte";
-    import KantinImg from "$lib/assets/kantin1-min.png";
-    import KantinImg1 from "$lib/assets/gazebo-kantin-min.png";
+    import KantinImg from "$lib/assets/kantin1.jpeg";
+    import KantinImg1 from "$lib/assets/gazebo-kantin.jpeg";
 </script>
 
 <PageHeader title="MAKANAN DAN MINUMAN" description="Permandian Alam Ompo memiliki kantin di dalam dan luar area permandian, siap menyajikan berbagai hidangan lezat kapan saja. Puaskan selera makan Anda tanpa harus jauh-jauh!" img={KantinImg} />

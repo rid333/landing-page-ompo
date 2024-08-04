@@ -1,10 +1,15 @@
 <script>
   import wave_1 from "$lib/assets/layered-waves-haikei.svg";
   import Fasilitas from "$lib/components/home/fasilitas.svelte";
-  import Header from "$lib/assets/dewasa-depan-min.png";
-  import AnakImg from "$lib/assets/anak.png";
-  import MataAirImg from "$lib/assets/mataair.png";
-  import DewasaImg from "$lib/assets/dewasa3.png";
+  import Header from "$lib/assets/dewasa-depan.jpeg";
+  import AnakImg from "$lib/assets/anak.jpeg";
+  import MataAirImg from "$lib/assets/mataair.jpeg";
+  import DewasaImg from "$lib/assets/dewasa3.jpeg";
+  import GazeboImg1 from "$lib/assets/gazebo1.jpeg";
+  import GazeboImg2 from "$lib/assets/gazebo3.jpeg";
+  import GazeboImg3 from "$lib/assets/gazebo4.jpeg";
+  import KantinImg1 from "$lib/assets/kantin1.jpeg";
+  import KantinImg2 from "$lib/assets/gazebo-kantin.jpeg";
   import { ChevronDown } from "lucide-svelte";
   import Carousel from 'svelte-carousel';
   import { MoveRight } from "lucide-svelte";
@@ -74,9 +79,9 @@
   </div>
   <div class="mt-5 lg:pt-0 w-[400px] lg:w-[600px]">
     <Carousel>
-      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
-      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
-      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+      <img src={GazeboImg1} alt="Gazebo 1" class="object-cover" />
+      <img src={GazeboImg2} alt="Gazebo 2" class="object-cover" />
+      <img src={GazeboImg3} alt="Gazebo 3" class="object-cover" />
     </Carousel>
   </div>
 </div>
@@ -84,9 +89,9 @@
 <div class="flex flex-col-reverse lg:flex-row justify-center items-center lg:text-end p-5 py-10 lg:p-20 gap-x-10">
   <div class="mt-5 lg:pt-0 w-[400px] lg:w-[600px]">
     <Carousel>
-      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
-      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
-      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c9/32/2b/flamingo-waterpark-resort.jpg?w=1200&h=-1&s=1" alt="Test" class="object-cover" />
+      <img src={KantinImg1} alt="Test" class="object-cover" />
+      <img src={KantinImg2} alt="Test" class="object-cover" />
+      <img src={KantinImg2} alt="Test" class="object-cover" />
     </Carousel>
   </div>
   <div class="lg:w-1/2 text-2xl lg:text-5xl flex flex-col gap-5">
